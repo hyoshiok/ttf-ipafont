@@ -1,0 +1,10 @@
+Package: ttf-ipafont
+Version: 2.03-1AXM
+Architecture: all
+Maintainer: MIRACLE LINUX CORPOLATION <packager@miraclelinux.com>
+Installed-Size: 26048
+Depends: defoma, fontconfig, xutils (>= 4.0.2)
+Section: x11
+Priority: extra
+Description: IPA JIS X0213:2004 font
+ This package contains Japanese truetype font. JIS X0213:2004

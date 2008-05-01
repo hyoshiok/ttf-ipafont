@@ -1,0 +1,96 @@
+category truetype
+begin /usr/share/fonts/truetype/ipa/ipag.ttf
+  Family = IPAGothic
+  FontName = IPAGothic-Regular
+  Encoding = Unicode
+  Location = English Japanese
+  Charset = ISO8859-1 JISX0208 JISX0201 JISX0212
+  GeneralFamily = Gothic
+  Weight = Medium
+  Width = Fixed
+  Shape = NoSerif Upright
+  Priority = 20
+  X-Foundry = ipa
+  X-Family = gothic
+  X-Weight = medium
+  X-Slant = r
+  Transform = Slant Boldize
+  TTCap = halfwidth-bw=0.5
+end
+
+category truetype
+begin /usr/share/fonts/truetype/ipa/ipagp.ttf
+  Family = IPAPGothic
+  FontName = IPAPGothic-Regular
+  Encoding = Unicode
+  Location = English Japanese
+  Charset = ISO8859-1 JISX0208 JISX0201 JISX0212
+  GeneralFamily = Gothic
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Upright
+  Priority = 20
+  X-Foundry = ipa
+  X-Family = pgothic
+  X-Weight = medium
+  X-Slant = r
+  Transform = Slant Boldize
+end
+
+category truetype
+begin /usr/share/fonts/truetype/ipa/ipagui.ttf
+  Family = IPAUIGothic
+  FontName = IPAUIGothic-Regular
+  Encoding = Unicode
+  Location = English Japanese
+  Charset = ISO8859-1 JISX0208 JISX0201 JISX0212
+  GeneralFamily = Gothic
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Upright
+  Priority = 20
+  X-Foundry = ipa
+  X-Family = uigothic
+  X-Weight = medium
+  X-Slant = r
+  Transform = Slant Boldize
+end
+
+category truetype
+begin /usr/share/fonts/truetype/ipa/ipam.ttf
+  Family = IPAMincho
+  FontName = IPAMincho-Regular
+  Encoding = Unicode
+  Location = English Japanese
+  Charset = ISO8859-1 JISX0208 JISX0201 JISX0212
+  GeneralFamily = Mincho
+  Weight = Medium
+  Width = Fixed
+  Shape = Serif Upright
+  Priority = 20
+  X-Foundry = ipa
+  X-Family = mincho
+  X-Weight = medium
+  X-Slant = r
+  Transform = Slant Boldize
+  TTCap = halfwidth-bw=0.5
+end
+
+category truetype
+begin /usr/share/fonts/truetype/ipa/ipamp.ttf
+  Family = IPAPMincho
+  FontName = IPAPMincho-Regular
+  Encoding = Unicode
+  Location = English Japanese
+  Charset = ISO8859-1 JISX0208 JISX0201 JISX0212
+  GeneralFamily = Micho
+  Weight = Medium
+  Width = Variable
+  Shape = Serif Upright
+  Priority = 20
+  X-Foundry = ipa
+  X-Family = mincho
+  X-Weight = medium
+  X-Slant = r
+  Transform = Slant Boldize
+end

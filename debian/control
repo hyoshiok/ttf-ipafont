@@ -1,0 +1,13 @@
+Source: ttf-ipafont
+Section: x11
+Priority: extra
+Maintainer: MIRACLE LINUX CORPOLATION <packager@miraclelinux.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: ttf-ipafont
+Architecture: all
+Depends: xutils (>= 4.0.2), defoma, fontconfig
+Recommends: fontconfig
+Description: IPA JIS X0213:2004 font
+ This package contains Japanese truetype font. JIS X0213:2004

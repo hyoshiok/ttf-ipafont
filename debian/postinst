@@ -1,0 +1,27 @@
+#!/bin/sh
+# postinst script for ttf-ipafont
+#
+# see: dh_installdeb(1)
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "configure" ]; then
+    if [ -x "/usr/bin/mkfontdir" -o -x "/usr/bin/X11/mkfontdir" ]; then
+        if [ -d "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" ]; then
+            mkfontdir /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType
+        fi
+    fi
+    if [ -x "/usr/bin/fc-cache" ]; then
+        echo -n "Regenerating fonts cache... "
+        if (fc-cache -f -v 1>/var/log/fontconfig.log 2>&1); then
+            echo "done."
+        else
+            echo "failed; see /var/log/fontconfig.log for more information."
+            exit 1
+        fi
+    fi
+fi
+
+exit 0
