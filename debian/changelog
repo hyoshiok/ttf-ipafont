@@ -1,3 +1,9 @@
+ttf-ipafont (2.03-2AXM) intrepid; urgency=low
+
+  * Fix copyright 
+
+ -- Hiro Yoshioka <hyoshiok@miraclelinux.com>  Fri, 21 Nov 2008 15:11:00 +0900
+
 ttf-ipafont (2.03-1AXM) unstable; urgency=low
 
   * Initial release
